@@ -249,6 +249,37 @@ h1 {
   background-color: rgba(0, 0, 0, 0.55);
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  background-color: #1d1a16;
+  padding: 2rem;
+}
+
+.error p {
+  margin: 0;
+  color:#d9e2f1;
+}
+.error h2 {
+  margin: 0;
+  font-size: larger;
+  color:#ff4d4d;
+  font-weight: bold;
+}
+
 @keyframes fade-slide-up {
   from {
     opacity: 0;
